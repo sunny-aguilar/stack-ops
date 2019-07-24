@@ -33,7 +33,7 @@ randomProc PROC
 	push	ebp				;push base pointer
 	mov		ebp, esp		;set base pointer to ESP
 	mov		eax, [ebp+16]	;access stack by with offsets to ebp
-	add		eax, [ebp+12]	;add variable ebp+12 to eax
+	add		eax, [ebp+12]	;add variable ebp+12
 	call	WriteDec
 	pop		ebp
 
