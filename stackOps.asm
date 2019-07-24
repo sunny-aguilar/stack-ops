@@ -17,9 +17,9 @@ INCLUDE Irvine32.inc
 .code
 main PROC
 
-; (insert executable instructions here)
 
-exit; exit to operating system
+
+	exit; exit to operating system
 main ENDP
 
 ; (insert additional procedures here)
