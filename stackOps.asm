@@ -36,7 +36,7 @@ randomProc PROC
 	add		eax, [ebp+12]	;add variable ebp+12
 	mov		[ebx], eax		;store results of eax into ebx
 	mov		eax, ebx
-	call	WriteDec		
+	call	WriteDec		;display result in ebx
 	pop		ebp
 
 	ret
