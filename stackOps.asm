@@ -29,7 +29,8 @@ main ENDP
 randomProc PROC
 	push	ebp
 	mov		ebp, esp
-	mov		eax, []
+	mov		eax, [ebp+4]
+	call	WriteDec
 
 	ret
 randomProc ENDP
