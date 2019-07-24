@@ -14,7 +14,7 @@ INCLUDE Irvine32.inc
 
 x	DWORD	175
 y	DWORD	37
-z	DWORD	?
+z	DWORD	"String text", 0
 
 .code
 main PROC
