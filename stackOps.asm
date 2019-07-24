@@ -18,7 +18,7 @@ val_2	DWORD	20
 .code
 main PROC
 	call	randomProc
-	pop		eax
+
 	call	WriteDec
 
 	exit; exit to operating system
