@@ -22,6 +22,6 @@ main PROC
 	exit; exit to operating system
 main ENDP
 
-; (insert additional procedures here)
+
 
 END main
