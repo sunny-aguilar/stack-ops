@@ -39,7 +39,7 @@ randomProc PROC
 	call	WriteDec		;display result in ebx
 	pop		ebp
 
-	ret
+	ret		12
 randomProc ENDP
 
 
