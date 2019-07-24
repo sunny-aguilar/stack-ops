@@ -18,6 +18,7 @@ z	DWORD	?
 
 .code
 main PROC
+	push	x
 	call	randomProc
 
 	exit; exit to operating system
