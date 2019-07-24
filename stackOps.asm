@@ -26,7 +26,10 @@ main ENDP
 ;randomProc
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 randomProc PROC
-	
+	push	ebp
+	mov		ebp, esp
+
+
 	ret
 randomProc ENDP
 
