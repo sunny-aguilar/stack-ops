@@ -20,6 +20,7 @@ z	DWORD	?
 main PROC
 	push	x
 	push	y
+	push	OFFSET z
 	call	randomProc
 
 	exit; exit to operating system
