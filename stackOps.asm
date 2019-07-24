@@ -32,7 +32,7 @@ main ENDP
 randomProc PROC
 	push	ebp
 	mov		ebp, esp
-	mov		edx, [ebp+8]
+	mov		eax, [ebp+8]
 	call	WriteString
 	pop		ebp
 
