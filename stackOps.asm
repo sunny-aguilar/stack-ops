@@ -34,6 +34,7 @@ randomProc PROC
 	mov		ebp, esp
 	mov		eax, [ebp+16]
 	call	WriteDec
+	pop		ebp
 
 	ret
 randomProc ENDP
