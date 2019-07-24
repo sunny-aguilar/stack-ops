@@ -17,9 +17,11 @@ val_2	DWORD	20
 
 .code
 main PROC
-	push val_1
-
-	call randomProc
+	push	val_1
+	push	val2
+	call	randomProc
+	pop		eax
+	call	WriteDec
 
 	exit; exit to operating system
 main ENDP
@@ -29,7 +31,7 @@ main ENDP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 randomProc PROC
 
-	ret
+	ret 4
 randomProc ENDP
 
 
