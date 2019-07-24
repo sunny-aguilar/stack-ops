@@ -12,7 +12,8 @@ INCLUDE Irvine32.inc
 
 .data
 
-; (insert variable definitions here)
+val_1	DWORD	10
+val_2	DWORD	20
 
 .code
 main PROC
