@@ -19,8 +19,6 @@ val_2	DWORD	20
 main PROC
 	call	randomProc
 
-	call	WriteDec
-
 	exit; exit to operating system
 main ENDP
 
