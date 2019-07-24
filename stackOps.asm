@@ -32,7 +32,7 @@ main ENDP
 randomProc PROC
 	push	ebp				;push base pointer
 	mov		ebp, esp		;set base pointer to ESP
-	mov		eax, [ebp+8]	;
+	mov		eax, [ebp+8]	;access stack by with 
 	call	WriteDec
 	pop		ebp
 
