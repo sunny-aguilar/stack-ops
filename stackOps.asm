@@ -12,8 +12,9 @@ INCLUDE Irvine32.inc
 
 .data
 
-val_1	DWORD	10
-val_2	DWORD	20
+x	DWORD	10
+y	DWORD	20
+z	DWORD	?
 
 .code
 main PROC
