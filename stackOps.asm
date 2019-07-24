@@ -30,8 +30,8 @@ main ENDP
 ;randomProc
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 randomProc PROC
-	push	ebp
-	mov		ebp, esp
+	push	ebp				;push base pointer
+	mov		ebp, esp		;s
 	mov		eax, [ebp+8]
 	call	WriteDec
 	pop		ebp
