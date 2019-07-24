@@ -29,7 +29,7 @@ main ENDP
 randomProc PROC
 	push	ebp
 	mov		ebp, esp
-
+	mov		eax, []
 
 	ret
 randomProc ENDP
