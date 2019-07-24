@@ -19,7 +19,7 @@ val_2	DWORD	20
 main PROC
 	push val_1
 
-	randomProc
+	call randomProc
 
 	exit; exit to operating system
 main ENDP
