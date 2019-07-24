@@ -12,8 +12,8 @@ INCLUDE Irvine32.inc
 
 .data
 
-x	DWORD	10
-y	DWORD	20
+x	DWORD	175
+y	DWORD	37
 z	DWORD	?
 
 .code
@@ -32,7 +32,7 @@ main ENDP
 randomProc PROC
 	push	ebp
 	mov		ebp, esp
-	mov		eax, [ebp+16]
+	mov		eax, [ebp+12]
 	call	WriteDec
 	pop		ebp
 
