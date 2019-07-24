@@ -35,7 +35,7 @@ randomProc PROC
 	mov		eax, [ebp+16]	;access stack by with offsets to ebp
 	add		eax, [ebp+12]	;add variable ebp+12
 	mov		[ebx], eax		;store results of eax into ebx
-	mov		eax, ebx
+	mov		eax, [ebx]
 	call	WriteDec		;display result in ebx
 	pop		ebp
 
