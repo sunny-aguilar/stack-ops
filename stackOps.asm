@@ -25,6 +25,8 @@ main PROC
 main ENDP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;randomProc
+
 
 
 END main
