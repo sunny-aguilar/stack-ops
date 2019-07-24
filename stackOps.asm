@@ -14,7 +14,7 @@ INCLUDE Irvine32.inc
 
 x	DWORD	175
 y	DWORD	37
-z	DWORD	"String text", 0
+z	BYTE	"String text", 0
 
 .code
 main PROC
@@ -32,7 +32,7 @@ main ENDP
 randomProc PROC
 	push	ebp
 	mov		ebp, esp
-	mov		eax, [ebp+8]
+	mov		edx, [ebp+8]
 	call	WriteString
 	pop		ebp
 
