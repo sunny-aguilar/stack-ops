@@ -26,8 +26,8 @@ main ENDP
 ;randomProc
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 randomProc PROC
-
-	ret 4
+	
+	ret
 randomProc ENDP
 
 
