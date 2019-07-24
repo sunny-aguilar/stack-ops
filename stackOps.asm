@@ -19,6 +19,7 @@ z	DWORD	?
 .code
 main PROC
 	push	x
+	push	y
 	call	randomProc
 
 	exit; exit to operating system
